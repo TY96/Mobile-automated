@@ -1,0 +1,79 @@
+{
+  "uid" : "41403dcbf80460ca",
+  "name" : "test_test_close",
+  "fullName" : "TestCase.test_xiaochengxu.TestStart1#test_test_close",
+  "historyId" : "43fc8a87290046dfbb8e8e280f73a54f",
+  "time" : {
+    "start" : 1594021600990,
+    "stop" : 1594021603545,
+    "duration" : 2555
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "96aaa0a5fb8f64c2",
+      "name" : "log",
+      "source" : "96aaa0a5fb8f64c2.txt",
+      "type" : "text/plain",
+      "size" : 410
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "关闭程序"
+  }, {
+    "name" : "feature",
+    "value" : "正常流---商品下单"
+  }, {
+    "name" : "epic",
+    "value" : "微信小程序---巴比商城"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_xiaochengxu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStart1"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro2015"
+  }, {
+    "name" : "thread",
+    "value" : "58630-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_xiaochengxu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41403dcbf80460ca.json",
+  "parameterValues" : [ ]
+}

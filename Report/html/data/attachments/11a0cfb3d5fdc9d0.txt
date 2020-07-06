@@ -1,0 +1,42 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element {"using": "xpath", "value": "//*[@resource-id=\"com.tencent.mm:id/f8y\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform {"actions": [{"action": "tap", "options": {"element": "cda4e5a0-c8c1-480c-80a1-0831ecec3531", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element {"using": "id", "value": "com.tencent.mm:id/bhn"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element/56f6a45a-0020-4fcb-92d7-1282b0340a6c/clear {"id": "56f6a45a-0020-4fcb-92d7-1282b0340a6c"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element/56f6a45a-0020-4fcb-92d7-1282b0340a6c/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element {"using": "id", "value": "com.tencent.mm:id/bhn"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element/92d1693c-f1b3-4437-8d33-290fabb9c1e7/value {"text": "\u5c0f\u7a0b\u5e8f\u52a9\u624b", "value": ["\u5c0f", "\u7a0b", "\u5e8f", "\u52a9", "\u624b"], "id": "92d1693c-f1b3-4437-8d33-290fabb9c1e7"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element/92d1693c-f1b3-4437-8d33-290fabb9c1e7/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element {"using": "xpath", "value": "//*[@resource-id=\"com.tencent.mm:id/h1s\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform {"actions": [{"action": "tap", "options": {"element": "7acf4928-fff2-4d33-aecc-a0edbe58068b", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element {"using": "xpath", "value": "(//android.widget.FrameLayout[@content-desc=\"containerFrameLayout\"])[2]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.webkit.WebView/android.view.View/android.view.View/android.view.View[3]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform {"actions": [{"action": "tap", "options": {"element": "0d211128-e988-46d7-9674-b2c55edd6c68", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element {"using": "-android uiautomator", "value": "UiSelector().text(\"\u7248\u672c\u67e5\u770b\")"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform {"actions": [{"action": "tap", "options": {"element": "47459075-8af1-4dee-a454-3a22c07ad4f8", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element {"using": "xpath", "value": "//*[@text=\"wxcff7381e631cf54e:pages/version/version.html:VISIBLE\"]/android.view.View[5]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/element HTTP/1.1" 200 137
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 POST http://127.0.0.1:4723/wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform {"actions": [{"action": "tap", "options": {"element": "38441f47-da55-464b-ba6c-358ac52ac18f", "count": 1}}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "POST /wd/hub/session/9832acd4-501f-4c2f-8fdc-7962528b1255/touch/perform HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

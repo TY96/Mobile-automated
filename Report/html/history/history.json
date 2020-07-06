@@ -1,0 +1,60 @@
+{
+  "3c00193bf60211efe37836c9f61e23af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66aef6f9f1b597eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594025006087,
+        "stop" : 1594025038070,
+        "duration" : 31983
+      }
+    } ]
+  },
+  "765ad0d0e1b338449957d9a1655623ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6549eeb0a756af3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get_attribute'",
+      "time" : {
+        "start" : 1594025038075,
+        "stop" : 1594025102673,
+        "duration" : 64598
+      }
+    } ]
+  },
+  "43fc8a87290046dfbb8e8e280f73a54f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c747c70d6b987d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594025102755,
+        "stop" : 1594025105627,
+        "duration" : 2872
+      }
+    } ]
+  }
+}

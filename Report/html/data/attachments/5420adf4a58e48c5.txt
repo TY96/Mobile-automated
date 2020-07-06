@@ -1,0 +1,10 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 GET http://127.0.0.1:4723/wd/hub/session/c9f68107-f507-407e-ba91-8862d3fc8f1b/screenshot {}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "GET /wd/hub/session/c9f68107-f507-407e-ba91-8862d3fc8f1b/screenshot HTTP/1.1" 200 286080
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 DELETE http://127.0.0.1:4723/wd/hub/session/c9f68107-f507-407e-ba91-8862d3fc8f1b {}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "DELETE /wd/hub/session/c9f68107-f507-407e-ba91-8862d3fc8f1b HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:389 GET http://127.0.0.1:4723/wd/hub/session/c9f68107-f507-407e-ba91-8862d3fc8f1b/screenshot {}
+DEBUG    urllib3.connectionpool:connectionpool.py:271 Resetting dropped connection: 127.0.0.1
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:4723 "GET /wd/hub/session/c9f68107-f507-407e-ba91-8862d3fc8f1b/screenshot HTTP/1.1" 404 2525
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

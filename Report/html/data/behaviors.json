@@ -1,0 +1,64 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "微信小程序---巴比商城",
+    "children" : [ {
+      "name" : "正常流---商品下单",
+      "children" : [ {
+        "name" : "进入小程序",
+        "children" : [ {
+          "name" : "test_Enter_the_applet",
+          "uid" : "66aef6f9f1b597eb",
+          "parentUid" : "657310623bb6d28ffa71945d118876dd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594025006087,
+            "stop" : 1594025038070,
+            "duration" : 31983
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "657310623bb6d28ffa71945d118876dd"
+      }, {
+        "name" : "进入小程序-选择商品-下单",
+        "children" : [ {
+          "name" : "test_Place_the_order",
+          "uid" : "f6549eeb0a756af3",
+          "parentUid" : "0a0323bec17b3bc0d1f75a5557e75ee8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594025038075,
+            "stop" : 1594025102673,
+            "duration" : 64598
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0a0323bec17b3bc0d1f75a5557e75ee8"
+      }, {
+        "name" : "关闭程序",
+        "children" : [ {
+          "name" : "test_test_close",
+          "uid" : "9c747c70d6b987d7",
+          "parentUid" : "535367604935fec6fe1855283e88a338",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594025102755,
+            "stop" : 1594025105627,
+            "duration" : 2872
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "535367604935fec6fe1855283e88a338"
+      } ],
+      "uid" : "cb61522d3303e44ee88cbfc1d673e041"
+    } ],
+    "uid" : "05798dd58c5a5b0ece7a9a6743c50db7"
+  } ]
+}

@@ -1,0 +1,273 @@
+{
+  "uid" : "f6549eeb0a756af3",
+  "name" : "test_Place_the_order",
+  "fullName" : "TestCase.test_xiaochengxu.TestStart1#test_Place_the_order",
+  "historyId" : "765ad0d0e1b338449957d9a1655623ce",
+  "time" : {
+    "start" : 1594025038075,
+    "stop" : 1594025102673,
+    "duration" : 64598
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'get_attribute'",
+  "statusTrace" : "self = <test_xiaochengxu.TestStart1 object at 0x10c6951f0>\n\n    @allure.story('进入小程序-选择商品-下单')\n    @allure.tag('关注点--支付')\n    def test_Place_the_order(self):\n        with allure.step('选择自助点餐'):\n            base.click(self.xp_el.type_android_uiautomator, self.xp_el.Buffet_order)\n        try:\n            with allure.step('地址输入框内输入鲜食1号'):\n                base.send_keys(self.xp_el.type_xpath, self.xp_el.Address_input_box, self.xp_el.text2)\n                base.click(self.xp_el.type_android_uiautomator, self.xp_el.xs)\n        except:\n            pass\n        sleep(5)\n        with allure.step('关闭弹出的弹框'):\n            try:\n                base.click(self.xp_el.type_xpath,self.xp_el.Close_the_bounced)\n            except:\n                pass\n        sleep(5)\n        with allure.step('选择打包带走，点击确定'):\n            first_sure = base.find_element(self.xp_el.type_android_uiautomator, self.xp_el.sure1)\n            first_sure.click()\n        with allure.step('点击加号，添加\"巴比推荐\"第一个商品至购物车'):\n            base.click(self.xp_el.type_xpath, self.xp_el.choose_one)\n        base.find_element(self.xp_el.type_xpath, self.xp_el.name_the_first).get_attribute(\"text\")\n        with allure.step('点击购物车，查看商品'):\n            base.click(self.xp_el.type_xpath, self.xp_el.view_shopping)\n        with allure.step('获取购物车内商品名称'):\n>           base.find_element(self.xp_el.type_xpath, self.xp_el.name_the_second).get_attribute(\"text\")\nE           AttributeError: 'NoneType' object has no attribute 'get_attribute'\n\nTestCase/test_xiaochengxu.py:89: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'get_attribute'",
+    "statusTrace" : "self = <test_xiaochengxu.TestStart1 object at 0x10c6951f0>\n\n    @allure.story('进入小程序-选择商品-下单')\n    @allure.tag('关注点--支付')\n    def test_Place_the_order(self):\n        with allure.step('选择自助点餐'):\n            base.click(self.xp_el.type_android_uiautomator, self.xp_el.Buffet_order)\n        try:\n            with allure.step('地址输入框内输入鲜食1号'):\n                base.send_keys(self.xp_el.type_xpath, self.xp_el.Address_input_box, self.xp_el.text2)\n                base.click(self.xp_el.type_android_uiautomator, self.xp_el.xs)\n        except:\n            pass\n        sleep(5)\n        with allure.step('关闭弹出的弹框'):\n            try:\n                base.click(self.xp_el.type_xpath,self.xp_el.Close_the_bounced)\n            except:\n                pass\n        sleep(5)\n        with allure.step('选择打包带走，点击确定'):\n            first_sure = base.find_element(self.xp_el.type_android_uiautomator, self.xp_el.sure1)\n            first_sure.click()\n        with allure.step('点击加号，添加\"巴比推荐\"第一个商品至购物车'):\n            base.click(self.xp_el.type_xpath, self.xp_el.choose_one)\n        base.find_element(self.xp_el.type_xpath, self.xp_el.name_the_first).get_attribute(\"text\")\n        with allure.step('点击购物车，查看商品'):\n            base.click(self.xp_el.type_xpath, self.xp_el.view_shopping)\n        with allure.step('获取购物车内商品名称'):\n>           base.find_element(self.xp_el.type_xpath, self.xp_el.name_the_second).get_attribute(\"text\")\nE           AttributeError: 'NoneType' object has no attribute 'get_attribute'\n\nTestCase/test_xiaochengxu.py:89: AttributeError",
+    "steps" : [ {
+      "name" : "选择自助点餐",
+      "time" : {
+        "start" : 1594025038075,
+        "stop" : 1594025045926,
+        "duration" : 7851
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4cca9dba3a674b8d",
+        "name" : "执行之前截图",
+        "source" : "4cca9dba3a674b8d.png",
+        "type" : "image/png",
+        "size" : 191883
+      }, {
+        "uid" : "db11c1f2a182e10d",
+        "name" : "执行之后截图",
+        "source" : "db11c1f2a182e10d.png",
+        "type" : "image/png",
+        "size" : 79900
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "地址输入框内输入鲜食1号",
+      "time" : {
+        "start" : 1594025045926,
+        "stop" : 1594025062629,
+        "duration" : 16703
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\n\n",
+      "statusTrace" : "  File \"/Users/admin/Desktop/my_file/test_jiaoben/TestCase/test_xiaochengxu.py\", line 69, in test_Place_the_order\n    base.send_keys(self.xp_el.type_xpath, self.xp_el.Address_input_box, self.xp_el.text2)\n  File \"/Users/admin/Desktop/my_file/test_jiaoben/Common/Base_page1.py\", line 173, in send_keys\n    self.driver.find_element(type, xpath).clear()\n  File \"/Users/admin/Desktop/my_file/test_jiaoben/vune/lib/python3.8/site-packages/appium/webdriver/webdriver.py\", line 282, in find_element\n    return self.execute(RemoteCommand.FIND_ELEMENT, {\n  File \"/Users/admin/Desktop/my_file/test_jiaoben/vune/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py\", line 320, in execute\n    self.error_handler.check_response(response)\n  File \"/Users/admin/Desktop/my_file/test_jiaoben/vune/lib/python3.8/site-packages/appium/webdriver/errorhandler.py\", line 29, in check_response\n    raise wde\n  File \"/Users/admin/Desktop/my_file/test_jiaoben/vune/lib/python3.8/site-packages/appium/webdriver/errorhandler.py\", line 24, in check_response\n    super(MobileErrorHandler, self).check_response(response)\n  File \"/Users/admin/Desktop/my_file/test_jiaoben/vune/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "关闭弹出的弹框",
+      "time" : {
+        "start" : 1594025067634,
+        "stop" : 1594025071738,
+        "duration" : 4104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "447cae18d62a6bb7",
+        "name" : "执行之前截图",
+        "source" : "447cae18d62a6bb7.png",
+        "type" : "image/png",
+        "size" : 641326
+      }, {
+        "uid" : "515deba765d312",
+        "name" : "执行之后截图",
+        "source" : "515deba765d312.png",
+        "type" : "image/png",
+        "size" : 641326
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "选择打包带走，点击确定",
+      "time" : {
+        "start" : 1594025076740,
+        "stop" : 1594025077830,
+        "duration" : 1090
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击加号，添加\"巴比推荐\"第一个商品至购物车",
+      "time" : {
+        "start" : 1594025077830,
+        "stop" : 1594025080881,
+        "duration" : 3051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a45969310415a50e",
+        "name" : "执行之前截图",
+        "source" : "a45969310415a50e.png",
+        "type" : "image/png",
+        "size" : 122352
+      }, {
+        "uid" : "4b42e68034adfc69",
+        "name" : "执行之后截图",
+        "source" : "4b42e68034adfc69.png",
+        "type" : "image/png",
+        "size" : 122352
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "点击购物车，查看商品",
+      "time" : {
+        "start" : 1594025082959,
+        "stop" : 1594025086117,
+        "duration" : 3158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2dad262d2eda8917",
+        "name" : "执行之前截图",
+        "source" : "2dad262d2eda8917.png",
+        "type" : "image/png",
+        "size" : 122352
+      }, {
+        "uid" : "e977a5fbdf41d916",
+        "name" : "执行之后截图",
+        "source" : "e977a5fbdf41d916.png",
+        "type" : "image/png",
+        "size" : 122352
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "获取购物车内商品名称",
+      "time" : {
+        "start" : 1594025086117,
+        "stop" : 1594025102672,
+        "duration" : 16555
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'get_attribute'\n",
+      "statusTrace" : "  File \"/Users/admin/Desktop/my_file/test_jiaoben/TestCase/test_xiaochengxu.py\", line 89, in test_Place_the_order\n    base.find_element(self.xp_el.type_xpath, self.xp_el.name_the_second).get_attribute(\"text\")\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd42392e2b86e207",
+        "name" : "未找到元素",
+        "source" : "fd42392e2b86e207.png",
+        "type" : "image/png",
+        "size" : 401881
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "254759f49e556fb9",
+      "name" : "log",
+      "source" : "254759f49e556fb9.txt",
+      "type" : "text/plain",
+      "size" : 12262
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "关注点--支付"
+  }, {
+    "name" : "feature",
+    "value" : "正常流---商品下单"
+  }, {
+    "name" : "story",
+    "value" : "进入小程序-选择商品-下单"
+  }, {
+    "name" : "epic",
+    "value" : "微信小程序---巴比商城"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_xiaochengxu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStart1"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro2015"
+  }, {
+    "name" : "thread",
+    "value" : "58935-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_xiaochengxu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b3f1f84c57ae675",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get_attribute'",
+      "time" : {
+        "start" : 1594021541238,
+        "stop" : 1594021600927,
+        "duration" : 59689
+      }
+    }, {
+      "uid" : "dfd73d5896e587df",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '//*[@text=\"w....view.View[1]' == '//*[@text=\"w....view.View[1]'\n  Skipping 92 identical leading characters in diff, use -v to show\n  - view.View[3]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]\n  ?           ^                    ^\n  + view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[7]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]\n  ?           ^                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "time" : {
+        "start" : 1594019806654,
+        "stop" : 1594019969415,
+        "duration" : 162761
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "关注点--支付" ]
+  },
+  "source" : "f6549eeb0a756af3.json",
+  "parameterValues" : [ ]
+}

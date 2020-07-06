@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 06 16:45:02 CST 2020","Mon Jul 06 16:45:05 CST 2020","2872","TestCase","test_xiaochengxu","TestStart1","","","test_test_close",""
+"passed","Mon Jul 06 16:43:26 CST 2020","Mon Jul 06 16:43:58 CST 2020","31983","TestCase","test_xiaochengxu","TestStart1","","","test_Enter_the_applet",""
+"broken","Mon Jul 06 16:43:58 CST 2020","Mon Jul 06 16:45:02 CST 2020","64598","TestCase","test_xiaochengxu","TestStart1","","","test_Place_the_order",""

@@ -1,0 +1,41 @@
+from time import sleep
+
+
+def test_loginwx(self):
+    try:
+        # 进入首页点击登录
+        self.driver.find_element_by_android_uiautomator('UiSelector().text("登录")').click()
+        # 选择QQ号登录
+        self.driver.find_element_by_android_uiautomator('UiSelector().text("用微信号/QQ号/邮箱登录")').click()
+        # 输入账号
+        QQ = self.driver.find_element_by_android_uiautomator('UiSelector().text("请填写微信号/QQ号/邮箱")')
+
+        QQ.send_keys("592860360")
+        # 输入密码
+        mia = self.driver.find_element_by_xpath('//android.widget.TextView[contains(@text,"密码")] '
+                                                '/following-sibling::android.widget.EditText')
+        mia.send_keys('.10086money.')
+
+        by_id = self.driver.find_element_by_android_uiautomator('UiSelector().text("登录")')
+        by_id.click()
+
+        self.driver.find_element_by_android_uiautomator('UiSelector().text("我知道了")').click()
+        self.driver.find_element_by_android_uiautomator('UiSelector().text("确定")').click()
+
+        for i in range(3):
+            try:
+                # 点击确定
+                no = self.driver.find_element_by_android_uiautomator('UiSelector().text("否")')
+                no.click()
+            except:
+                sleep(3)
+                pass
+    except:
+        # 输入密码
+        mima1 = self.driver.find_element_by_id('com.tencent.mm:id/bhn')
+        mima1.sendkeys('.10086money.')
+        sleep(3)
+        # 点击登录
+        dl = self.driver.find_element_by_id('com.tencent.mm:id/d5n')
+        dl.click()
+        sleep(10)
