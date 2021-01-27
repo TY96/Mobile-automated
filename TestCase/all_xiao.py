@@ -1,13 +1,6 @@
-"""
 
-Author:Tang
-Time:2020-04-24
-Company:菜鸟学习
-
-"""
 import pytest
 from appium import webdriver
-import uiautomator
 from time import sleep
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -111,19 +104,7 @@ class Test_case:
         pay_sure.click()
         sleep(6)
 
-        self.driver.tap([('550', '1400')], '100')
-        sleep(3)
-        self.driver.tap([('540', '1700')], '100')
-        sleep(3)
-        self.driver.tap([('540', '1700')], '100')
-        sleep(3)
-        self.driver.tap([('540', '1230')], '100')
-        sleep(3)
-        self.driver.tap([('540', '1230')], '100')
-        sleep(3)
-        self.driver.tap([('900', '1230')], '100')
-        print('下单成功，请去admin退款')
-        sleep(3)
+
 
     def test_close(self):
         self.driver.quit()

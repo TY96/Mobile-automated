@@ -1,10 +1,9 @@
 from appium.webdriver.common.mobileby import By
 from appium.webdriver.common.mobileby import MobileBy as MBy
 from appium.webdriver.common.touch_action import TouchAction
-from appium import webdriver
-from TestCase.conftest import phone
-import time, inspect
-import allure
+from Common.conftest import phone
+import time,allure
+
 
 
 
@@ -176,50 +175,70 @@ class base_page:
 
     # @shot
     def scroll_down(self, n):
+        """
+        手机左上角为原点坐标，手机屏幕向下滚动，默认滚动时间为1000ms
+        :param n: 滚动的次数
+        :return:
+        """
         # 获取屏幕宽度
-        x = self.driver.get_windows_size()["width"]
+        x = self.driver.get_window_size()["width"]
         # 获取屏幕长度
-        y = self.driver.get_windows_size()["height"]
+        y = self.driver.get_window_size()["height"]
         # 横坐标为xw
-        xw = x * 0.05
+        xw = int(x * 0.5)
         # 纵坐标为yh1滑到yh2，即从上向下滑动，屏幕实现下滑操作
-        yh1 = y * 0.8
-        yh2 = y * 0.7
+        yh1 = int(y * 0.5)
+        yh2 = int(y * 0.2)
         for i in range(n):
-            self.driver.swipe(self, xw, yh1, xw, yh2)
+            self.driver.swipe(xw, yh1, xw, yh2, 1000)
             time.sleep(1)
 
     # @shot
     def scroll_up(self, n):
-        x = self.driver.get_windows_size()["width"]
-        y = self.driver.get_windows_size()["height"]
-        xw = x * 0.05
-        yh1 = y * 0.7
-        yh2 = y * 0.8
+        """
+        参考向下滚动：scroll_down
+        :param n:
+        :return:
+        """
+        x = self.driver.get_window_size()["width"]
+        y = self.driver.get_window_size()["height"]
+        xw = int(x * 0.5)
+        yh1 = int(y * 0.8)
+        yh2 = int(y * 0.5)
         for i in range(n):
-            self.driver.swipe(self, xw, yh1, xw, yh2)
+            self.driver.swipe(xw, yh1, xw, yh2, 1000)
             time.sleep(1)
 
     # @shot
     def scroll_left(self, n):
-        x = self.driver.get_windows_size()["width"]
-        y = self.driver.get_windows_size()["height"]
+        """
+        参考向下滚动：scroll_down
+        :param n:
+        :return:
+        """
+        x = self.driver.get_window_size()["width"]
+        y = self.driver.get_window_size()["height"]
         yh = y * 0.7
         xw1 = x * 0.2
         xw2 = x * 0.3
         for i in range(n):
-            self.driver.swipe(self, xw1, yh, xw2, yh)
+            self.driver.swipe(xw1, yh, xw2, yh, 1000)
             time.sleep(1)
 
     # @shot
     def scroll_right(self, n):
-        x = self.driver.get_windows_size()["width"]
-        y = self.driver.get_windows_size()["height"]
+        """
+        参考向下滚动：scroll_down
+        :param n:
+        :return:
+        """
+        x = self.driver.get_window_size()["width"]
+        y = self.driver.get_window_size()["height"]
         yh = y * 0.7
         xw1 = x * 0.3
         xw2 = x * 0.2
         for i in range(n):
-            self.driver.swipe(self, xw1, yh, xw2, yh)
+            self.driver.swipe(xw1, yh, xw2, yh, 1000)
             time.sleep(1)
 
     def t_Time(self):
@@ -259,7 +278,7 @@ class base_page:
         返回
         :return:
         """
-        self.driver.keyevens(4)
+        self.driver.keyevent(4)
 
     # @shot
     def long_press(self, type, loc):
@@ -291,13 +310,30 @@ class base_page:
         :param duration:
         :return:
         """
-        width = self.driver.get_windows_size()["width"]
-        height = self.driver.get_windows_size()["height"]
+        width = self.driver.get_window_size()["width"]
+        height = self.driver.get_window_size()["height"]
         a = [float(x) / width] * width
         x1 = int(a)
         b = [float(y) / height] * height
         y1 = int(b)
         self.driver.tap([(x1, y1), (x1, y1)], duration)
+
+    def el_exist(self, xpath):
+        if self.driver.find_element_by_xpath(xpath):
+            return True
+        else:
+            return False
+
+    def reinstall_app(self,package_name,package_path):
+        if self.driver.is_app_installed(package_name):
+            print('准备卸载')
+            self.driver.remove_app(package_name)
+            print('正在安装，请稍等...')
+            self.driver.install_app(package_path)
+            print("重装成功")
+        else:
+            self.driver.install_app(package_path)
+            print("安装成功")
 
     # @shot
     def quit(self):
@@ -306,25 +342,3 @@ class base_page:
         :return:
         """
         self.driver.quit()
-
-    def get_method_name(self):
-        return inspect.stack()[1][3]
-
-# class Base_page:
-#     def __init__(self, driver):
-#         self.driver = driver
-#
-#     def find_element(self, *loc):
-#         """重写find_element方法，显式等待"""
-#         try:
-#             WebDriverWait(self.driver, 3).until(EC.visibility_of_element_located(loc))
-#             return self.driver.find_element(*loc)
-#         except Exception as e:
-#             raise e
-#
-#     def send_keys(self, value, *loc):
-#         try:
-#             self.find_element(*loc).clear()
-#             self.find_element(*loc).send_keys(value)
-#         except AttributeError as e:
-#             raise e

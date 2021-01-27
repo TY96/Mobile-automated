@@ -18,6 +18,13 @@ class phone():
         self.desired_caps["unicodeKeyboard"] = True
         self.desired_caps["resetKeyboard"] = True
         self.desired_caps["noReset"] = True
+        #chromedriver文件位置
+        self.desired_caps["chromedriver-executable"] = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/mac/chromedriver"
+        # 支持X5内核应用自动化配置
+        self.desired_caps["recreateChromeDriverSessions"] = True
+        # self.desired_caps["ChromeOptions options"] = "new ChromeOptions()"
+        # self.desired_caps["androidProcess"] = "com.tencent.mm:appbrand0"
+
 
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", self.desired_caps)
         self.driver.implicitly_wait(15)

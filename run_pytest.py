@@ -7,5 +7,5 @@ if __name__ == '__main__':
     # cmd = 'allure generate ./Report/xml/ -o ./Report/html/ --clean'
     # os.system(cmd)
 
-    cmd = 'pytest ./TestCase/test_xiaochengxu.py --alluredir ./Report'
+    cmd = 'pytest ./TestCase/Normal.py --alluredir ./Report'
     os.system(cmd)
