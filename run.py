@@ -11,7 +11,7 @@ if __name__ == '__main__':
     html_report_path = './Report/html/'
 
     # pytest.main(['-s', '-q', '-v', './TestCase/test_xiaochengxu.py', ])
-    pytest.main(['-s', '-q', '--alluredir', xml_report_path, './TestCase/test_xiaochengxu.py'])
+    pytest.main(['-s', '-q', '-v', '--alluredir', html_report_path, './TestCase/Normal.py'])
 
     cmd = "allure generate %s -o %s --clean" % (xml_report_path, html_report_path)
     # 'allure generate ./ result / -o ./ report / --clean'

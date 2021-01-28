@@ -1,0 +1,14 @@
+---
+login:
+
+-   locator: //*[@text="发现"]
+    by: xpath
+    action: click
+
+-   locator: //android.widget.TextView[contains(@text,('朋友圈'))]
+    by: xpath
+    action: swipe_down
+
+-   locator: //android.widget.TextView[contains(@text,('小程序'))]
+    by: xpath
+    action: click

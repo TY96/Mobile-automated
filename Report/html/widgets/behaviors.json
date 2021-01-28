@@ -1,15 +1,4 @@
 {
-  "total" : 1,
-  "items" : [ {
-    "uid" : "05798dd58c5a5b0ece7a9a6743c50db7",
-    "name" : "微信小程序---巴比商城",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  } ]
+  "total" : 13,
+  "items" : [ ]
 }

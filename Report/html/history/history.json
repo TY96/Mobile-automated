@@ -1,5 +1,5 @@
 {
-  "3c00193bf60211efe37836c9f61e23af" : {
+  "93da26ac781be914c68e12179e5463c8" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,36 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66aef6f9f1b597eb",
+      "uid" : "eab41a75b881b8d7",
       "status" : "passed",
       "time" : {
-        "start" : 1594025006087,
-        "stop" : 1594025038070,
-        "duration" : 31983
+        "start" : 1611814737855,
+        "stop" : 1611814741310,
+        "duration" : 3455
       }
     } ]
   },
-  "765ad0d0e1b338449957d9a1655623ce" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f6549eeb0a756af3",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'get_attribute'",
-      "time" : {
-        "start" : 1594025038075,
-        "stop" : 1594025102673,
-        "duration" : 64598
-      }
-    } ]
-  },
-  "43fc8a87290046dfbb8e8e280f73a54f" : {
+  "58b4d983671ef1ab4f05473a759c0d0f" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -48,12 +28,221 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c747c70d6b987d7",
+      "uid" : "435e8a9866462998",
       "status" : "passed",
       "time" : {
-        "start" : 1594025102755,
-        "stop" : 1594025105627,
-        "duration" : 2872
+        "start" : 1611814744466,
+        "stop" : 1611814748584,
+        "duration" : 4118
+      }
+    } ]
+  },
+  "3048a37808c7b559e190860d5603febd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b46d11adf05c9c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814715525,
+        "stop" : 1611814718888,
+        "duration" : 3363
+      }
+    } ]
+  },
+  "58416c4b73da90f473a8f05d0bf90d2b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5997b3fbb03d2c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814756530,
+        "stop" : 1611814758424,
+        "duration" : 1894
+      }
+    } ]
+  },
+  "be7b822541e868cd501b59b867f415b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2556e2666372d5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814741312,
+        "stop" : 1611814744463,
+        "duration" : 3151
+      }
+    } ]
+  },
+  "5ed122d1b0498abdc5e4b7cbdde24266" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c5d058a7eb57de5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814709440,
+        "stop" : 1611814715522,
+        "duration" : 6082
+      }
+    } ]
+  },
+  "2d6094ae32aa7c4d07f71f015453c6b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d709380b6398c99a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814748588,
+        "stop" : 1611814756525,
+        "duration" : 7937
+      }
+    } ]
+  },
+  "529af1f0b2d35cd96c4459ae20a2c21d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa84470bc84417a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814758426,
+        "stop" : 1611814760149,
+        "duration" : 1723
+      }
+    } ]
+  },
+  "b54d983843e416843e73e2c1bc47c88d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a01b244597ddc55d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814724541,
+        "stop" : 1611814728066,
+        "duration" : 3525
+      }
+    } ]
+  },
+  "065e8f41ca62a7855b104c709224efc4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "656d97e651304ae1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814730253,
+        "stop" : 1611814737852,
+        "duration" : 7599
+      }
+    } ]
+  },
+  "c10a3eef1a334aa172d6072544a216d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c01874338c5ed6c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814718891,
+        "stop" : 1611814722194,
+        "duration" : 3303
+      }
+    } ]
+  },
+  "c2a331b93514feed80c8374ed1d24e7c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e6ddcbf598bc5b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814728069,
+        "stop" : 1611814730249,
+        "duration" : 2180
+      }
+    } ]
+  },
+  "9d4acb88a3fcbbe9d54fbfdf08f8c81c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc91243bc52aa07e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814722200,
+        "stop" : 1611814724539,
+        "duration" : 2339
       }
     } ]
   }

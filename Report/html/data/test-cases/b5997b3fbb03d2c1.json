@@ -1,0 +1,72 @@
+{
+  "uid" : "b5997b3fbb03d2c1",
+  "name" : "test_back",
+  "fullName" : "TestCase.Normal.Test_one_order#test_back",
+  "historyId" : "58416c4b73da90f473a8f05d0bf90d2b",
+  "time" : {
+    "start" : 1611814756530,
+    "stop" : 1611814758424,
+    "duration" : 1894
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5e8b91534227601",
+      "name" : "log",
+      "source" : "e5e8b91534227601.txt",
+      "type" : "text/plain",
+      "size" : 464
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "Normal"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_one_order"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro2015.local"
+  }, {
+    "name" : "thread",
+    "value" : "99408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5997b3fbb03d2c1.json",
+  "parameterValues" : [ ]
+}

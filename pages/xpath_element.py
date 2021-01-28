@@ -71,5 +71,5 @@ class oneorder():
     # 确认支付
     pay_sure = """//*[@text="确认支付"]"""
 
-    lijizhifu = """//android.widget.TextView[@content-desc="立即支付"]"""
+    lijizhifu = """//*[@text="立即支付"]"""
 

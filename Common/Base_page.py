@@ -38,11 +38,10 @@ def shot(func):
 
 class base_page:
 
-    def __init__(self):
-        # self.driver = driver
-
-        p = phone()
-        self.driver = p.set_()
+    # def __init__(self):
+    #     # self.driver = driver
+    p = phone()
+    driver = p.set_()
 
     def find_element(self, type, xpath):
         """

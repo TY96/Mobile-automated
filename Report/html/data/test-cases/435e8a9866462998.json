@@ -1,0 +1,84 @@
+{
+  "uid" : "435e8a9866462998",
+  "name" : "test_settle",
+  "fullName" : "TestCase.Normal.Test_one_order#test_settle",
+  "historyId" : "58b4d983671ef1ab4f05473a759c0d0f",
+  "time" : {
+    "start" : 1611814744466,
+    "stop" : 1611814748584,
+    "duration" : 4118
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f73fc367fcbf4d42",
+      "name" : "执行之前截图",
+      "source" : "f73fc367fcbf4d42.png",
+      "type" : "image/png",
+      "size" : 401038
+    }, {
+      "uid" : "ee910924adc4fade",
+      "name" : "执行之后截图",
+      "source" : "ee910924adc4fade.png",
+      "type" : "image/png",
+      "size" : 161844
+    }, {
+      "uid" : "9e8d7551cac7b4e4",
+      "name" : "log",
+      "source" : "9e8d7551cac7b4e4.txt",
+      "type" : "text/plain",
+      "size" : 1911
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "Normal"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_one_order"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro2015.local"
+  }, {
+    "name" : "thread",
+    "value" : "99408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "435e8a9866462998.json",
+  "parameterValues" : [ ]
+}
